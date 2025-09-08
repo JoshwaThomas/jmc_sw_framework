@@ -5,6 +5,7 @@ import Iconic from './assets/972.jpg';
 import Obe1 from './assets/obe1.png';
 import Sclr1 from './assets/sclr1.png';
 import Exam1 from './assets/exam1.png';
+import IMS from './assets/IMS.png';
 
 function App() {
 
@@ -95,9 +96,9 @@ function App() {
 					<img
 						src={Obe1}
 						alt="OBE"
-						className="rounded-xl mb-4 h-58"
+						className="rounded-xl mb-6 h-58"
 					/>
-					<h3 className="text-2xl font-bold text-green-800 mb-4 text-center">
+					<h3 className="text-2xl font-bold mb-4 text-center">
 						Outcome Based Education
 					</h3>
 					<p className="text-gray-600 flex-grow text-lg">
@@ -120,9 +121,9 @@ function App() {
 					<img
 						src={Sclr1}
 						alt="Scholarship"
-						className="rounded-xl mb-4 h-58"
+						className="rounded-xl mb-6 h-58"
 					/>
-					<h3 className="text-2xl font-bold text-green-800 mb-4 text-center">
+					<h3 className="text-2xl font-bold mb-4 text-center">
 						Scholarship Portal
 					</h3>
 					<p className="text-gray-600 flex-grow text-lg">
@@ -143,9 +144,9 @@ function App() {
 					<img
 						src={Exam1}
 						alt="Online Exam"
-						className="rounded-xl mb-4 h-58"
+						className="rounded-xl mb-6 h-58"
 					/>
-					<h3 className="text-2xl font-bold text-green-800 mb-4 text-center">
+					<h3 className="text-2xl font-bold mb-4 text-center">
 						Online Exam Ease
 					</h3>
 					<p className="text-gray-600 flex-grow text-lg">
@@ -161,22 +162,22 @@ function App() {
 				</div>
 
 				{/* Invigilation Card */}
-				<div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:shadow-orange-300 transition p-6 flex flex-col">
+				<div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:shadow-violet-500 transition p-6 flex flex-col">
 					<img
-						src={Exam1}
+						src={IMS}
 						alt="Online Exam"
-						className="rounded-xl mb-4 h-58"
+						className="rounded-xl mb-6 h-58"
 					/>
-					<h3 className="text-2xl font-bold text-green-800 mb-4 text-center">
-						Online Exam Ease
+					<h3 className="text-2xl font-bold mb-4 text-center">
+						Invigilation Management System
 					</h3>
 					<p className="text-gray-600 flex-grow text-lg">
-						Conduct MCQ-based online exams, manage schedules, control student
-						access, and track attendance securely through this integrated system.
+						Manage invigilation schedules, monitor staff and student access, supervise examination 
+						sessions, and track attendance securely through this integrated system
 					</p>
 					<a
 						href="#"
-						className="mt-6 inline-block bg-orange-400 text-white px-6 py-3 text-lg rounded-lg font-semibold text-center hover:bg-orange-500 transition"
+						className="mt-6 inline-block bg-violet-600 text-white px-6 py-3 text-lg rounded-lg font-semibold text-center hover:bg-orange-500 transition"
 					>
 						Click to View
 					</a>
