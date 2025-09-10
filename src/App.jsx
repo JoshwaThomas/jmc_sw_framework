@@ -76,6 +76,7 @@ function App() {
 							<li>✔ OBE Attainment System</li>
 							<li>✔ Scholarship Automation</li>
 							<li>✔ Online Examination Interface</li>
+							<li>✔ Invigilation Management System</li>
 						</ul>
 					</div>
 					<div className="md:w-1/2 flex justify-center">
@@ -101,13 +102,11 @@ function App() {
 					<h3 className="text-2xl font-bold mb-4 text-center">
 						Outcome Based Education
 					</h3>
-					<p className="text-gray-600 flex-grow text-lg">
-						A guide to understanding and calculating OBE attainment — covering
-						Course Outcomes (COs), Program Outcomes (POs), and Program-Specific
-						Outcomes (PSOs).
+					<p className="text-gray-600 flex-grow text-lg text-justify">
+					This document serves as a guide to understanding and calculating Outcome-Based Education (OBE) attainment, focusing on Student Outcomes (SOs), Course Outcomes (COs), Program Outcomes (POs), and Program-Specific Outcomes (PSOs).
 					</p>
 					<a
-						href="https://www.jmc.edu"
+						href="http://192.168.10.9:3001"
 						target="_blank"
 						rel="noreferrer"
 						className="mt-6 inline-block bg-green-600 text-white px-6 py-3 text-lg rounded-lg font-semibold text-center hover:bg-green-700 transition"
@@ -126,13 +125,13 @@ function App() {
 					<h3 className="text-2xl font-bold mb-4 text-center">
 						Scholarship Portal
 					</h3>
-					<p className="text-gray-600 flex-grow text-lg">
-						A digital platform to manage alumni-sponsored scholarships — from
-						application and verification to approval and disbursement, ensuring
-						transparency and efficiency.
+					<p className="text-gray-600 flex-grow text-lg text-justify">
+					A digital platform developed to manage scholarships sponsored by alumni and well-wishers. It streamlines the entire process from application and verification to approval and disbursement reducing manual effort and ensuring transparency.
 					</p>
 					<a
-						href="#"
+						href="http://192.168.10.9:3000"
+						target="_blank"
+						rel="noreferrer"
 						className="mt-6 inline-block bg-blue-500 text-white px-6 py-3 text-lg rounded-lg font-semibold text-center hover:bg-blue-600 transition"
 					>
 						Click to View
@@ -149,12 +148,13 @@ function App() {
 					<h3 className="text-2xl font-bold mb-4 text-center">
 						Online Exam Ease
 					</h3>
-					<p className="text-gray-600 flex-grow text-lg">
-						Conduct MCQ-based online exams, manage schedules, control student
-						access, and track attendance securely through this integrated system.
+					<p className="text-gray-600 flex-grow text-lg text-justify">
+					This system is used to conduct MCQ-based online exams through platforms like Google Forms, It manages student access, schedules exams, shares exam links, and records attendance. Students can take the exams only through this software.
 					</p>
 					<a
-						href="#"
+						href="http://192.168.10.9:3002"
+						target="_blank"
+						rel="noreferrer"
 						className="mt-6 inline-block bg-orange-400 text-white px-6 py-3 text-lg rounded-lg font-semibold text-center hover:bg-orange-500 transition"
 					>
 						Click to View
@@ -171,13 +171,14 @@ function App() {
 					<h3 className="text-2xl font-bold mb-4 text-center">
 						Invigilation Management System
 					</h3>
-					<p className="text-gray-600 flex-grow text-lg">
-						Manage invigilation schedules, monitor staff and student access, supervise examination 
-						sessions, and track attendance securely through this integrated system
+					<p className="text-gray-600 flex-grow text-lg text-justify">
+						Invigilation Management System automates the allocation of staff to exam halls while preventing them from being assigned to their own parent department. It ensures fair coverage of all sessions based on the seniority of the staff. It avoids consecutive sessions wherever possible and ensures uniform session allocation, while also minimizing repetitive hall assignments to optimize fairness and efficiency.
 					</p>
 					<a
-						href="#"
-						className="mt-6 inline-block bg-violet-600 text-white px-6 py-3 text-lg rounded-lg font-semibold text-center hover:bg-orange-500 transition"
+						href="http://192.168.10.9:8000"
+						target="_blank"
+						rel="noreferrer"
+						className="mt-6 inline-block bg-violet-600 text-white px-6 py-3 text-lg rounded-lg font-semibold text-center hover:bg-violet-700 transition"
 					>
 						Click to View
 					</a>
