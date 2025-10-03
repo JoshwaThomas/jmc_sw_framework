@@ -68,7 +68,7 @@ function App() {
 							This portal brings together a few systems developed to automate academic
 							and administrative processes like{" "}
 							<span className="font-semibold text-green-700">
-								OBE tracking, online examinations, alumni-sponsored scholarships and invigilation managaement system
+								OBE tracking, online examinations, alumni-sponsored scholarships and invigilation management system
 							</span>{" "}
 							— all aimed at reducing manual effort and supporting institutional efficiency.
 						</p>
